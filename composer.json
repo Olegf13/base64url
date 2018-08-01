@@ -1,0 +1,36 @@
+{
+  "name": "olegf13/base64url",
+  "description": "Base64 encoder/decoder with URL safe alphabet (base64url).",
+  "type": "library",
+  "keywords": [
+    "base64url"
+  ],
+  "homepage": "https://github.com/Olegf13/base64url",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleg Fedorov",
+      "email": "olegf39@gmail.com",
+      "homepage": "https://github.com/Olegf13",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "olegf39@gmail.com",
+    "issues": "https://github.com/Olegf13/base64url/issues",
+    "source": "https://github.com/Olegf13/base64url",
+    "docs": "https://github.com/Olegf13/base64url"
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Olegf13\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
